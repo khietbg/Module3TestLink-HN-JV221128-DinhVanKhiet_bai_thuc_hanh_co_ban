@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         double arr[] = new double[50];
         for (int i = 0; i < 50; i++) {
-            arr[i] = Math.floor(Math.random() * 100);
+            arr[i] = Math.floor(Math.random() * 100+1);
         }
         System.out.println("mảng cần in la : " + Arrays.toString(arr));
         double min = arr[0];
